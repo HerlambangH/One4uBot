@@ -48,7 +48,7 @@ if version_info[0] < 3 or version_info[1] < 8:
 # Check if the config was edited by using the already used variable.
 # Basically, its the 'virginity check' for the config file ;)
 CONFIG_CHECK = (os.environ.get(
-    "___________PLOX_______REMOVE_____THIS_____LINE__________") or None)
+    "") or None)
 
 if CONFIG_CHECK:
     LOGS.info(
@@ -57,12 +57,12 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY") or None
-API_HASH = os.environ.get("API_HASH") or None
+API_KEY = os.environ.get("API_KEY") 1718233
+API_HASH = os.environ.get("API_HASH") 542711dbf0e53f193358df5e89138e5a
 
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION") or None
+STRING_SESSION = os.environ.get("STRING_SESSION") 1BVtsOG8Bu1ytQZgSuBoiZpHKunzn0BVFlsTvFWBZrtanVWj1u6jCG6kr7Jp7lFOcGCIRfWa2WPUJCYRDCHq916345YZR51P1XwXXZXLgAOL_FHEoHbQuKijWSbfoMO-Qg2jKjT2i9G15cuyLy9lO3rQsJ4DMirSbSyGwC9S7xhqcLJHbM8D4j5d0Yoyw5vMxtWPWGy9wZM_ErgrlroUbAnnKbUmaDVTB2TIsTgP-P7VIz9cKBU5DucjG25OXBD3Pr3vQD4fDC0xcF-0C5EH6OdevVD0d5l3CnKBzqLI0jUJZMjKUkP0uVXBsE0u3CETT82QBsPpeOdGEQrcXMr03ZyTV3Ye3ARk=
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN") or None
